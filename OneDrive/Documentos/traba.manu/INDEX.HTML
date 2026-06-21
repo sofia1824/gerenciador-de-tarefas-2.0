@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>trabalho</title>
+<head>
+<meta charset="utf-8"/>
+<title>HTML básico</title>
+<style>
+h1{
+    color: rgb(33, 5, 58);
+}
+p{
+    color: rgb(255, 0, 179);
+}
+</style>
+</head>
+<body>
+    <h1> Aula 1</h1>
+    <p> Este é um paragrafo.</p>
+    <p id= "clique"> Este paragrafo mudara ao clicar o botao abaixo</p>
+<button onclick="muda_paragrafo()">Clique aqui</button>
+<script>
+    function muda_paragrafo(){
+        let p = document.getElementById("clique");
+        p.innerHTML = "Botão clicado";
+    }
+ </script>
+</body>
+</html>
