@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Gerenciador de Despesas",
+    "slug": "gerenciador-despesas",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-status-bar",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
